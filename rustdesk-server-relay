@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>RustDeskServer Relay</Name>
+  <Repository>rustdesk/rustdesk-server</Repository>
+  <Registry>https://hub.docker.com/r/rustdesk/rustdesk-server</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/rustdesk/rustdesk-server</Project>
+  <Overview>Yet another remote desktop software, written in Rust. Works out of the box, no configuration required. You have full control of your data, with no concerns about security.</Overview>
+  <Category>Tools: Network:Web</Category>
+  <Icon/>
+  <ExtraParams>--no-healthcheck</ExtraParams>
+  <PostArgs>/usr/bin/hbbr</PostArgs>
+  <Config Name="Host Path 1" Target="/root" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/rustdesk-hbbr/</Config>
+  <Config Name="Host Port 1" Target="21117" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">21117</Config>
+  <Config Name="Host Port 2" Target="21119" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">21119</Config>
+</Container>
