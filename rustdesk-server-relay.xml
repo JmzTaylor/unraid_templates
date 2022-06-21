@@ -10,7 +10,7 @@
   <Project>https://github.com/rustdesk/rustdesk-server</Project>
   <Overview>Yet another remote desktop software, written in Rust. Works out of the box, no configuration required. You have full control of your data, with no concerns about security.</Overview>
   <Category>Tools: Network:Web</Category>
-  <Icon/>
+  <Icon>https://github.com/JmzTaylor/unraid_templates/raw/master/rustserver.png</Icon>
   <ExtraParams>--no-healthcheck</ExtraParams>
   <PostArgs>/usr/bin/hbbr</PostArgs>
   <Config Name="Host Path 1" Target="/root" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/rustdesk-hbbr/</Config>
