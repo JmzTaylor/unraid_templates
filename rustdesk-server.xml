@@ -13,7 +13,7 @@
   <Category>Tools: Network:Web</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon/>
+  <Icon>https://github.com/JmzTaylor/unraid_templates/raw/master/rustserver.png</Icon>
   <ExtraParams>--no-healthcheck</ExtraParams>
   <PostArgs>/usr/bin/hbbs</PostArgs>
   <CPUset/>
