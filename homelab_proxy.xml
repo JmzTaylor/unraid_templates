@@ -15,7 +15,7 @@ Only caveat to using this, is that if you host this on public facing server and 
   <Category>Cloud: Network:Web</Category>
   <WebUI>http://[iP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/JmzTaylor/homelab_proxy/550bdb77f0750a4d0e91169e81fb02fc3495b42a/www/img/Icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/JmzTaylor/unraid_templates/master/homelab.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
