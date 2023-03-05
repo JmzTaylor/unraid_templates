@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Uptime Kuma API</Name>
+  <Repository>medaziz11/uptimekuma_restapi</Repository>
+  <Registry>https://hub.docker.com/u/medaziz11</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/135986-support-uptime-kuma-api/</Support>
+  <Project>https://github.com/MedAziz11/Uptime-Kuma-Web-API</Project>
+  <Overview>A REST API wrapper for Uptime Kuma using Uptime-Kuma-API</Overview>
+  <Category>Cloud: Network:Web</Category>
+  <WebUI>http://[iP]:[PORT:8000]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/JmzTaylor/unraid_templates/master/uptime_kuma_api.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1614978540</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>A REST API wrapper for Uptime Kuma using Uptime-Kuma-API</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <ContainerPort>8000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment/>
+  <Labels/>
+</Container>
