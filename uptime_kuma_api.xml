@@ -11,7 +11,7 @@
   <Project>https://github.com/MedAziz11/Uptime-Kuma-Web-API</Project>
   <Overview>A REST API wrapper for Uptime Kuma using Uptime-Kuma-API</Overview>
   <Category>Cloud: Network:Web</Category>
-  <WebUI>http://[iP]:[PORT:8000]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8000]/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/JmzTaylor/unraid_templates/master/uptime_kuma_api.png</Icon>
   <ExtraParams/>
@@ -33,4 +33,10 @@
   <Data/>
   <Environment/>
   <Labels/>
+  <Config Name="KUMA_SERVER" Target="KUMA_SERVER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">https://[SERVER_IP]:3001</Config>
+  <Config Name="KUMA_USERNAME" Target="KUMA_USERNAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="KUMA_PASSWORD" Target="KUMA_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="ADMIN_PASSWORD" Target="ADMIN_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Host Path 1" Target="/db" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/uptime_kuma_api</Config>
+  <Config Name="Host Port 1" Target="8000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8000</Config>
 </Container>
