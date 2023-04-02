@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>cups for Canon</Name>
-  <Repository>jmztaylor/cups-canon</Repository>
+  <Repository>nodedogconsulting/cups-canon</Repository>
   <Registry>https://hub.docker.com/r/nodedogconsulting/cups-canon</Registry>
   <Network>bridge</Network>
   <MyIP/>
@@ -17,7 +17,7 @@ Note: The admin user/password for the Cups server is admin/admin</Overview>
   <Category>Tools: Network:Other Status:Beta</Category>
   <WebUI>https://[IP]:[PORT:631]/</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/jmztaylor/unraid_templates/cups.png</Icon>
+  <Icon>https://raw.githubusercontent.com/JmzTaylor/unraid_templates/master/cups.png</Icon>
   <ExtraParams>--restart=always</ExtraParams>
   <PostArgs/>
   <CPUset/>
