@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Mailpit</Name>
+  <Repository>axllent/mailpit</Repository>
+  <Registry>https://hub.docker.com/r/axllent/mailpit</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/axllent/mailpit</Project>
+  <Overview>Mailpit is a multi-platform email testing tool &amp;amp; API for developers.&#xD;
+&#xD;
+It acts as both an SMTP server, and provides a web interface to view all captured emails. It also contains an API for automated integration testing.&#xD;
+&#xD;
+Mailpit is inspired by MailHog, but modern and much, much faster.</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:8025]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/JmzTaylor/unraid_templates/master/mailpit.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1689697947</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="smtp" Target="1025" Default="1025" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">1025</Config>
+  <Config Name="storage" Target="/data" Default="/mnt/user/appdata/mailpit" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/mailpit</Config>
+  <Config Name="http" Target="8025" Default="8025" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8025</Config>
+</Container>
