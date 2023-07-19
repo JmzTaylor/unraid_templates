@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/142308-support-mailpit-support-thread/</Support>
   <Project>https://github.com/axllent/mailpit</Project>
   <Overview>Mailpit is a multi-platform email testing tool &amp;amp; API for developers.&#xD;
 &#xD;
