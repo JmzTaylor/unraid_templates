@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Buggregator</Name>
+  <Repository>ghcr.io/buggregator/server:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/179102-support-buggregator/</Support>
+  <Project/>
+  <Overview>Buggregator is a free, multi-purpose server tool designed primarily for debugging PHP applications, but it's also compatible with other programming languages. Think of it as a Swiss Army knife for developers. What makes it special is that it offers a range of features that you would usually find in various paid tools, but it's available for free.</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/JmzTaylor/unraid_templates/master/buggregator.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI/Sentry/Ray/Inspector/XHProf" Target="8000" Default="8000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8000</Config>
+  <Config Name="SMTP" Target="1025" Default="1025" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">1025</Config>
+  <Config Name="Symphony Var Dump" Target="9912" Default="9912" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9912</Config>
+  <Config Name="Monolog" Target="9913" Default="9913" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9913</Config>
+</Container>
+
