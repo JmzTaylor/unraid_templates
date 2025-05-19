@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>BookLore</Name>
+  <Repository>ghcr.io/adityachandelgit/booklore-app:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>BookLore is a self-hosted web app for organizing and managing your personal book collection. It provides an intuitive interface to browse, read, and track your progress across PDFs and eBooks. With robust metadata management, multi-user support, and a sleek, modern UI, BookLore makes it easy to build and explore your personal library.</Overview>
+  <Category>Media Servers:</Category>
+  <WebUI>http://[IP]:[PORT:6060]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/JmzTaylor/unraid_templates/master/booklore.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires>Requires a separate MySQL/MariaDB instance (available as a separate template) &#xD;</Requires>
+  <Config Name="WebUI" Target="6060" Default="6060" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">6060</Config>
+  <Config Name="DATABASE_URL" Target="DATABASE_URL" Default="jdbc:mariadb://localhost:3306/booklore" Description="Database URL" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="DATABASE_USERNAME" Target="DATABASE_USERNAME" Default="booklore" Description="Database Username" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="DATABASE_PASSWORD" Target="DATABASE_PASSWORD" Default="password" Description="Database Password" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="data" Target="/app/data" Default="/mnt/user/appdata/booklore" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/booklore</Config>
+  <Config Name="Books" Target="/books" Default="/mnt/user/Books" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Books</Config>
+</Container>
+
