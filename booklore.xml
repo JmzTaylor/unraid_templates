@@ -7,8 +7,8 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
-  <Project/>
+  <Support>https://forums.unraid.net/topic/190366-booklore-template-support-thread</Support>
+  <Project>https://github.com/adityachandelgit/BookLore</Project>
   <Overview>BookLore is a self-hosted web app for organizing and managing your personal book collection. It provides an intuitive interface to browse, read, and track your progress across PDFs and eBooks. With robust metadata management, multi-user support, and a sleek, modern UI, BookLore makes it easy to build and explore your personal library.</Overview>
   <Category>Media Servers:</Category>
   <WebUI>http://[IP]:[PORT:6060]</WebUI>
