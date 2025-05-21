@@ -20,7 +20,7 @@
   <DateInstalled/>
   <DonateText/>
   <DonateLink/>
-  <Requires>Requires a separate MySQL/MariaDB instance (available as a separate template) &#xD;</Requires>
+  <Requires>Requires a separate MariaDB instance (available as a separate template) &#xD;</Requires>
   <Config Name="WebUI" Target="6060" Default="6060" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">6060</Config>
   <Config Name="DATABASE_URL" Target="DATABASE_URL" Default="jdbc:mariadb://localhost:3306/booklore" Description="Database URL" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="DATABASE_USERNAME" Target="DATABASE_USERNAME" Default="booklore" Description="Database Username" Type="Variable" Display="always" Required="true" Mask="false"/>
